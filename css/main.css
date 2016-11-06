@@ -1,0 +1,158 @@
+@charset 'UTF-8';
+@import url('../fonts/font.css');
+
+.navbar-navigation {
+	background-color: #5884ec;
+}
+
+span.icon-bar { background-color: salmon !important; }
+
+.navbar-navigation li a {
+	color: #eee;
+	font-family: 'Dosis-Regular';
+	font-size: 1.15em;
+	letter-spacing: 1px;
+}
+
+.navbar-navigation li a:hover,
+ul.dropdown-menu a.logout:hover { color: #5884ec; }
+ul.dropdown-menu a.logout { color: #999; }
+
+a.site-logo {
+	font-family: 'Dauphin';
+	font-size: 1.85em;
+	font-weight: bold;
+	color: lightsalmon;
+	padding-top: .75em;
+}
+
+a.navbar-brand:hover { color: salmon!important; }
+
+section#main-body {
+	width: 100%;
+	min-height: 600px;
+	background-image: url('../images/debut_dark.png');
+	margin-top: 3em;
+}
+
+footer#site-footer {
+	background: -moz-linear-gradient(90deg, #292929 0, #2B2B2B 100%);
+	background: -webkit-gradient(linear, 90deg, color-stop(0, 292929), color-stop(100%, 2B2B2B));
+	background: -webkit-linear-gradient(90deg, #292929 0, #2B2B2B 100%);
+	background: -o-linear-gradient(90deg, #292929 0, #2B2B2B 100%);
+	background: -ms-linear-gradient(90deg, #292929 0, #2B2B2B 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');
+	background: linear-gradient(90deg, #292929 0, #2B2B2B 100%);
+	width: 100%;
+	height: 120px;
+	/*position: fixed;
+	bottom: 0;*/
+}
+
+p.copyright {
+	font-family: 'Dosis-Regular';
+	color: #eee;
+	margin-top: 5%;
+	letter-spacing: 1px;
+}
+
+/***
+** Basic-info Page Style
+**/
+.white_bg {
+	background-image: url('../images/debut_light.png');
+	background-attachment: fixed;
+}
+
+.page_header {
+	margin: 2em 0;
+	text-align: center;
+	padding: 1em 0;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page_header h1 {
+	font-family: 'Dosis-Regular';
+	color: #999;
+}
+
+.page_header h4 {
+	font-family: 'Dauphin';
+	font-size: 1em;
+	color: #5884ec;
+}
+
+.dataentry_box {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	padding: 1em 0;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.45);
+	font-family: 'Dosis-Regular';
+}
+
+.form_container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.form_title h3 {
+	text-align: center;
+	color: lightsalmon;
+	font-size: 2em;
+}
+
+.form_title hr { border-color: rgba(0, 0, 0, 0.15); }
+.alert_style { font-family: 'Dauphin' !important; }
+
+/***
+** Production Page Design
+**/
+.info_box {
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 1px 4px 10px rgba(255, 255, 255, 0.45);
+	font-family: 'Dosis-Regular';
+}
+
+.info_box h3 {
+	text-align: center;
+	margin-bottom: 2em;
+	color: salmon;
+}
+
+.section_part { padding-bottom: 2em; }
+
+.section_box_container {
+	width: 90%;
+	height: 120px;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+.custom_link_btn {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.section_margin { margin-top: 1.5em; }
+.custom_dropdown { width: 100%; }
+.custom_dropdown li a { text-align: center; }
+.custom_dropdown li a:hover { background-color: #5884ec; color: #fff; }
+.data_table { background-color: #fff; }
+
+.data_table table {
+	color: #000;
+	font-family: 'Dosis-Regular';
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+tr.data_row {
+	font-size: 13px;
+	font-family: 'Dosis-Light';
+	text-align: center;
+}

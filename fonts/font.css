@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Dauphin';
+	font-weight: normal;
+	src: url('Dauphin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Dosis-Regular';
+	font-weight: normal;
+	src: url('Dosis-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Dosis-Light';
+	font-weight: lighter;
+	src: url('Dosis-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Dosis-Semi';
+	font-weight: bold;
+	src: url('Dosis-SemiBold.otf') format('opentype');
+}
